@@ -1,0 +1,8 @@
+[09-Dec-2025 17:02:34 Asia/Kolkata] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[09-Dec-2025 17:03:15 Asia/Kolkata] Database Connection Error: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[09-Dec-2025 17:25:02 Asia/Kolkata] Database Connection Error: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[09-Dec-2025 17:28:36 Asia/Kolkata] Database Connection Error: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[09-Dec-2025 17:28:44 Asia/Kolkata] Database Connection Error: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[09-Dec-2025 17:29:31 Asia/Kolkata] Database Connection Error: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+[09-Dec-2025 17:37:46 Asia/Kolkata] Test DB connect: could not find driver
+[09-Dec-2025 17:37:50 Asia/Kolkata] Test DB connect: could not find driver
