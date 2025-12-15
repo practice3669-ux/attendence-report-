@@ -1,0 +1,149 @@
+/**
+ * Responsive Stylesheet
+ * Mobile-first approach
+ */
+
+/* Tablet and below */
+@media (max-width: 1024px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    
+    .sidebar.active {
+        transform: translateX(0);
+    }
+    
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+    }
+    
+    .sidebar-toggle {
+        display: block;
+    }
+    
+    .content-wrapper {
+        padding: 20px 15px;
+    }
+    
+    .top-header {
+        padding: 0 15px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .filter-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .table {
+        font-size: 12px;
+    }
+    
+    .table th,
+    .table td {
+        padding: 8px;
+    }
+    
+    .modal {
+        width: 95%;
+        margin: 20px;
+    }
+    
+    .toast-container {
+        left: 10px;
+        right: 10px;
+    }
+    
+    .toast {
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .page-header h1 {
+        font-size: 24px;
+    }
+    
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .login-box {
+        padding: 30px 20px;
+    }
+    
+    .stat-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .modal-footer {
+        flex-direction: column;
+    }
+    
+    .modal-footer .btn {
+        width: 100%;
+    }
+}
+
+/* Print styles */
+@media print {
+    .sidebar,
+    .top-header,
+    .btn,
+    .pagination {
+        display: none;
+    }
+    
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .content-wrapper {
+        padding: 0;
+    }
+    
+    .table {
+        font-size: 10px;
+    }
+}
+
